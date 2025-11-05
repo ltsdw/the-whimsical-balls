@@ -1,2 +1,3 @@
 # the-whimsical-balls
-How whimsical a ball can get?
+
+Just a fun project for uni assignment. 
