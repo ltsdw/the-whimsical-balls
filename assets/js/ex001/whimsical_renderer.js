@@ -42,8 +42,6 @@ class WhimsicalAverageFPS {
     pushSample = (fps, deltaTime) => {
         this._framesSample.push(fps);
         this._TimeSpent += deltaTime;
-
-        for (let i = 0; i < this._framesSample.length; ++i) {}
     };
 
     /**
