@@ -1,0 +1,69 @@
+/* Some whimsical colors*/
+:root {
+    --color-bg: #f89b2a;
+    --color-primary: #f2e6c9;
+    --color-secondary: #c4473d;
+    --color-accent: #ead046;
+    --color-dark: #2e2e2e;
+    --color-cool: #2d3e50;
+}
+
+body,
+html {
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header#main_header {
+    background-color: var(--color-secondary);
+    box-shadow: 4px 4px 0 var(--color-cool);
+    color: var(--color-primary);
+    border-radius: 20px;
+    font: normal 20pt Arial;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+div#canvas_div {
+    background-color: var(--color-primary);
+    box-shadow: 4px 4px 0 var(--color-cool);
+    height: 70vh;
+    width: 90%;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas#whimsical_canvas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+footer#main_footer {
+    font: normal 14pt Arial;
+    font-style: italic;
+    text-align: center;
+}
+
+div#footer_div {
+    background-color: var(--color-secondary);
+    box-shadow: 4px 4px 0 var(--color-cool);
+    color: var(--color-primary);
+    border-radius: 20px;
+    margin: auto;
+    width: 10%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
