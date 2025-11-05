@@ -34,7 +34,5 @@ export const getRandomColor = () => {
         "#453327",
         "#AF835C",
     ];
-    return whimsicalPalette[
-        Math.floor(Math.random() * whimsicalPalette.length)
-    ];
+    return whimsicalPalette[getRandomInt(0, whimsicalPalette.length)];
 };
